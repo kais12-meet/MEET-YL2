@@ -1,0 +1,5 @@
+A. I typed python manage.py runserver. I went to the url of my server/movies.
+
+B. The URL is the server/movies/(numberofmovie). The URL would always be the number of that movie in the list.
+
+C.

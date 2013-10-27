@@ -1,0 +1,12 @@
+A. I typed python manage.py runserver. I went to the url of my server/movies.
+
+B. The URL is the server/movies/(numberofmovie). The URL would always be the number of that movie in the list.
+
+C.This function gets called:
+ def add_movie(request):
+    newmovie = Movie(title=request.POST['movie_title'])
+    # when making new objects, always remember to save them
+    newmovie.save()
+    return HttpResponseRedirect('/movies')
+
+D. 
