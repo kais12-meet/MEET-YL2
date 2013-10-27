@@ -9,4 +9,4 @@ C.This function gets called:
     newmovie.save()
     return HttpResponseRedirect('/movies')
 
-D. 
+... I changed addmovie to addcomment because I am here adding a comment about the movie, and not just adding a whole new ID, which the movie_list function does. Doesn't it?
